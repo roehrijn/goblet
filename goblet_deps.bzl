@@ -273,12 +273,6 @@ def goblet_deps():
         version = "v2.0.5",
     )
     go_repository(
-        name = "com_github_grpc_ecosystem_grpc_gateway",
-        importpath = "github.com/grpc-ecosystem/grpc-gateway",
-        sum = "h1:gmcG1KaJ57LophUzW0Hy8NmPhnMZb4M0+kPpLofRdBo=",
-        version = "v1.16.0",
-    )
-    go_repository(
         name = "com_github_hashicorp_golang_lru",
         importpath = "github.com/hashicorp/golang-lru",
         sum = "h1:0hERBMJE1eitiLkihrMvRVBYAkpHzc/J3QdDN+dAcgU=",
